@@ -14,39 +14,45 @@ const MoviePage = () => {
         <div className='details'>
             <div className='grty'>
                 <div className='border-black'>{movies.year}</div>
-                <div className='ratings'>{movies.genre.map((data,index)=>(
+                <div className='genre'>{movies.genre.map((data,index)=>(
                         <p key={index}>{data}</p>
                     ))}
                 </div>
                 <div>{movies.time}</div>
                 <div>{movies.rating}</div>
             </div>
-            <div>
+            <div className='nameImg'>
                 <img src={movies.nameImage} alt={movies.name} />
             </div>
-            <div className='desc'>
-                <p>{movies.desc}</p>
-            </div>
-            <div className='stars'>
-                Starring : {movies.starring.map((data,index)=>(
-                    <p key={index}>{data}</p>
-                ))}
-            </div>
-            <div>
-                <Button
-                    color="primary"
-                    disabled={false} startIcon={<MovieIcon />}
-                    size="medium" variant="outlined"
-                >
-                    Watch Trailer
-                </Button>
-                <Button
-                    color="primary"
-                    disabled={false} startIcon={<PlayArrowIcon />}
-                    size="medium" variant="outlined"
-                >
-                Play
-                </Button>
+            <div className='example'>
+                <div className='desc'>
+                    <p>{movies.desc}</p>
+                </div>
+                <div className='stars'>
+                    Starring : {movies.starring.map((data,index)=>(
+                        <p key={index}>{data}</p>
+                    ))}
+                </div>
+                <div className='btn'>
+                    <div>
+                    <Button
+                        color="primary"
+                        disabled={false} startIcon={<MovieIcon />}
+                        size="medium" variant="outlined"
+                    >
+                        Watch Trailer
+                    </Button>
+                    </div>
+                    <div>
+                    <Button
+                        color="primary"
+                        disabled={false} startIcon={<PlayArrowIcon />}
+                        size="medium" variant="outlined"
+                    >
+                    Play
+                    </Button>
+                    </div>
+                </div>
             </div>
         </div>
       </div>
