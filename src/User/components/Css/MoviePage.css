@@ -17,7 +17,7 @@
 .details{
     position: absolute;
     color: white;
-    top: 20%;
+    top: 32%;
     right: 0;
     z-index: 1;
     width: 50%;
@@ -77,11 +77,17 @@
     line-height: 25px;
 }
 .btn{
-    padding: 20px;
+    padding: 10px;
     /* border: 2px solid white; */
     width:100%;
     height: fit-content;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.btn div{
+    padding: 15px;
+}
+Button{
+    backdrop-filter: blur(10px);
 }

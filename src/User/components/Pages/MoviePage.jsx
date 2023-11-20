@@ -36,7 +36,7 @@ const MoviePage = () => {
                 <div className='btn'>
                     <div>
                     <Button
-                        color="primary"
+                        color="default"
                         disabled={false} startIcon={<MovieIcon />}
                         size="medium" variant="outlined"
                     >
@@ -45,7 +45,7 @@ const MoviePage = () => {
                     </div>
                     <div>
                     <Button
-                        color="primary"
+                        color="default"
                         disabled={false} startIcon={<PlayArrowIcon />}
                         size="medium" variant="outlined"
                     >
