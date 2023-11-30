@@ -34,4 +34,16 @@ export const movie = [{
     "rating":"7.0",
     "desc":"High-school student Sam Witwicky buys his first car, who is actually the Autobot Bumblebee. Bumblebee defends Sam and his girlfriend Mikaela Banes from the ...",
     "video":"",
+},{
+    "name": "The Creator",
+    "year":"2023",
+    "time":"134 MIN",
+    "nameImage":"https://w7.pngwing.com/pngs/690/529/png-transparent-transformers-the-game-optimus-prime-transformers-rise-of-the-dark-spark-youtube-logo-youtube-angle-text-film.png",
+    "backGroundImage":"https://images.metahub.space/background/medium/tt11858890/img",
+    "Image":"https://images.metahub.space/poster/small/tt11858890/img",
+    "genre":["Action","Adventure","Drama"],
+    "starring":["Shia LaBeouf","Megan Fox","Tyrese Gibson"],
+    "rating":"7.1",
+    "desc":"High-school student Sam Witwicky buys his first car, who is actually the Autobot Bumblebee. Bumblebee defends Sam and his girlfriend Mikaela Banes from the ...",
+    "video":"",
 }]
